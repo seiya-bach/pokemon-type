@@ -1,9 +1,9 @@
-import { VFC } from 'react';
+import { FC } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 
-const App: VFC = () => (
+const App: FC = () => (
     <>
         <Header></Header>
         <div className="App">
